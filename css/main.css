@@ -1,0 +1,182 @@
+/***** BASE STYLES *****/
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    color: #2b2b2b;
+}
+
+#about, #work, #contact {
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.two-third-width {
+    width: 800px;
+    float: left;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+header {
+    background-size: cover;
+}
+
+header h1 { 
+    padding: 65px 0 65px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #000;
+    font-weight: bold;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header h2 {
+    width: 950px;
+    clear: both;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 80px;
+    color: #9b9b9b;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #77a466;
+    padding-left: 25px; 
+    font-weight: bold;
+}
+
+#hero {
+    border-top: solid 5px #77a466;
+    border-bottom: solid 5px #77a466;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 20px 0;
+}
+
+#about h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 25px;
+    color: #77a466;
+}
+ 
+#about p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/***** WORK *****/
+
+#work {
+    height: 250px;
+}
+
+#work .full-width {
+    margin: auto;
+    width: 1400px;
+}
+
+#work .third-width {
+    padding: 30px;
+    height: 180px;
+}
+
+#special {
+    border-top: 1px solid #dedbdc;
+    border-right: none;
+    border-bottom: 1px solid #dedbdc;
+    border-left: none;
+}
+
+#reviews {
+    border: 1px solid #dedbdc;
+}
+
+#contact-us {
+    border-top: 1px solid #dedbdc;
+    border-right: none;
+    border-bottom: 1px solid #dedbdc;
+    border-left: none;
+}
+
+#work h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #000000;
+    line-height: 32px;
+    margin: 0 auto;
+}
+ 
+#work p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/***** FOOTER *****/
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+footer h5 {
+    font-size: 16px;
+}
+
+footer h5 span {
+    color: #77a466;
+    font-family: 'Dancing Script', cursive;
+}
